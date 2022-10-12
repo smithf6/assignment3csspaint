@@ -1,0 +1,145 @@
+.bottomleft {
+    border-left: 115px solid rgb(228, 228, 130);
+    border-right: 115px solid rgb(49, 45, 45);
+    border-bottom: 115px solid rgb(228, 228, 130);
+    border-top: 115px solid rgb(49, 45, 45);
+    position: absolute;
+
+
+}
+
+.triangle-element {
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    position: relative;
+    margin: 0px;
+    transition: 6s;
+}
+
+.triangle-element:after {
+    content: '';
+    background: rgb(110, 109, 109);
+    width: 142%;
+    height: 142%;
+    position: absolute;
+    transform: rotate(45deg) translate(-71%, 0);
+    transition: 6s;
+}
+
+
+
+body {
+    background-color: rgb(133, 127, 148);
+    display: block;
+}
+
+.background {
+    background-color: rgb(49, 45, 45);
+    width: 230px;
+}
+
+.leftmiddle {
+    height: 135px;
+    width: 230px;
+    background-color: rgb(49, 45, 45);
+    transition: 6s;
+}
+
+
+.line {
+    width: calc(1.414 * 200px);
+    transform: rotate(-45deg);
+    border-top: 1px solid rgb(49, 45, 45);
+    top: -2px;
+    left: -1px;
+    box-sizing: border-box;
+}
+
+.bottomleftborder {
+    border-left: 111px solid transparent;
+    border-right: 111px solid transparent;
+    border-bottom: 111px solid rgb(228, 222, 222);
+    border-top: 111px solid transparent;
+    position: absolute;
+    margin-top: 8px;
+    margin-left: 7px;
+    transition: 6s;
+}
+
+
+.clear {
+    clear: both;
+}
+
+.leftside {
+    float: left;
+    width: 230px;
+}
+
+
+.rightside {
+    float: left;
+    width: 230px;
+
+}
+
+.right2 {
+    float: left;
+    width: 120px;
+}
+
+.trapezoid {
+    border-bottom: 140px solid rgb(228, 222, 222);
+    border-left: 0 solid transparent;
+    border-right: 140px solid transparent;
+    border-top: 0 solid transparent;
+
+
+}
+
+.background2 {
+    background-color: rgb(76, 79, 83);
+}
+
+.rightcorner {
+    border-left: 70px solid rgb(76, 79, 83);
+    border-right: 70px solid rgb(146, 45, 45);
+    border-bottom: 70px solid rgb(146, 45, 45);
+    border-top: 70px solid rgb(76, 79, 83);
+}
+
+.trapezoid2 {
+    border-left: 110px solid rgb(228, 222, 222);
+    border-right: 120px solid rgb(146, 45, 45);
+    border-bottom: 120px solid rgb(146, 45, 45);
+    border-top: 120px solid rgb(228, 222, 222);
+}
+
+#red {
+    background-color: rgb(146, 45, 45);
+    height: 426px;
+    width: 140px;
+    transition: 6s;
+}
+
+
+#test1 {
+    border-left: 120px solid rgb(110, 109, 109);
+    border-right: 110px solid rgb(146, 45, 45);
+    border-bottom: 110px solid rgb(110, 109, 109);
+    border-top: 120px solid rgb(146, 45, 45);
+}
+
+#overflow {
+    height: 186px;
+    width: 230px;
+    overflow: hidden;
+}
+p {
+    padding-top: 30px;
+    font-size: large;
+}
+h1 {
+    padding-bottom: 30px;
+}
